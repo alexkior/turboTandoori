@@ -1,0 +1,32 @@
+{
+  "name": "turbotandoori",
+  "version": "1.0.0",
+  "description": "Rehearsal studio booking app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "npx tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexkior/turboTandoori.git"
+  },
+  "keywords": [
+    "booking"
+  ],
+  "author": "Alex Kior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexkior/turboTandoori/issues"
+  },
+  "homepage": "https://github.com/alexkior/turboTandoori#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.21",
+    "typescript": "^5.5.4"
+  }
+}
